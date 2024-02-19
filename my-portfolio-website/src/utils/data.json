@@ -1,0 +1,65 @@
+{
+    "banner" : [
+        {
+            "description": "Привет, Я ",
+            "translation": "Hi, I&apos;m "
+        },
+        {
+            "description": "С помощью знаний в HTML, CSS, JavaScript и React, я стремлюсь создавать веб-приложения, которые не только привлекательны визуально, но и превосходны в плане функциональности. ",
+            "translation": "With my expertise in HTML, CSS, JavaScript and React, I strive to create web applications that are not only visually appealing but also excel in functionality."
+        }
+    ],
+    "skills": [
+        {
+            "description": "Разработка и адаптивная верстка веб-сайтов и приложений",
+            "translation": "Web design and development, including responsive layouts"
+        },
+        {
+            "description": "Использование API для добавления функциональности, включая погоду и локацию",
+            "translation": "Utilizing APIs to enhance functionality, such as weather and location integration"
+        },
+        {
+            "description": "Практический опыт работы с React.js и Vue.js, включая React Router",
+            "translation": "Practical experience with React.js and Vue.js, including React Router"
+        },
+        {
+            "description": "Опыт работы с Redux и Redux Toolkit (включая Redux Slice) для управления состоянием приложений на React.js",
+            "translation": "Experience with Redux and Redux Toolkit (including Redux Slice) for state management in React.js applications"
+        },
+        {
+            "description": "Опыт использования Vuex и Pinia для управления состоянием приложений на Vue.js",
+            "translation": "Experience using Vuex and Pinia for state management in Vue.js applications"
+        },
+        {
+            "description": "Написание TDD для базовых функций",
+            "translation": "Writing test-driven development (TDD) for basic functionalities"
+        },
+        {
+            "description": "Работа с node.js: создание MVC модели сервера на Express.js с использованием SQLite и MariaDB. SSR",
+            "translation": "Working with node.js: developing MVC server models using Express.js with SQLite and MariaDB. Server-side rendering (SSR)"
+        },
+        {
+            "description": "Опыт работы с базами данных: SQLite, MariaDB, MongoDB",
+            "translation": "Experience with databases: SQLite, MariaDB, MongoDB"
+        }
+    ],
+    "responsive": {
+        "superLargeDesktop": {
+            "breakpoint": { "max": 4000, "min": 3000 },
+            "items": 5
+        },
+        "desktop": {
+            "breakpoint": { "max": 3000, "min": 1024 },
+            "items": 3
+        },
+        "tablet": {
+            "breakpoint": { "max": 1024, "min": 464 },
+            "items": 2
+        },
+        "mobile": {
+            "breakpoint": { "max": 464, "min": 0 },
+            "items": 1
+        }
+    }     
+}
+  
