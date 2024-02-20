@@ -21,11 +21,11 @@ export const projects = {
             webUrl: '',
         },
         {
-            title: "React Project",
+            title: "My beautiful Portfolio Site",
             description: "Design & Development",
             imgUrl: projImg2,
-            gitUrl: '',
-            webUrl: '',
+            gitUrl: 'https://github.com/GulzhanKarakul/my-portfolio',
+            webUrl: 'https://gulzhankarakul.github.io/my-portfolio/',
         },
         {
             title: "React Native Project",
