@@ -16,3 +16,8 @@
     letter-spacing: 0.5px;
     margin-top: 20px;
 }
+@media (max-width: 585px) {
+    .footer-image{
+        display: none;
+    }
+}

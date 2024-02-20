@@ -8,8 +8,8 @@ export default function Footer() {
     return (
         <footer className="footer">
             <Container>
-                <Row className="align-item-center">
-                    <Col sm={6}>
+                <Row className="align-item-center justify-content-around">
+                    <Col className="footer-image" sm={6}>
                         <img src={logo} alt="logo" />
                     </Col>
                     <Col sm={6} className="text-center text-sm-end">
