@@ -9,7 +9,7 @@ nav.navbar {
 }
 nav.navbar.scrolled {
     padding: 0px 0;
-    background: linear-gradient(90.21deg, rgba(170, 54, 124, 0.8) -5.91%, rgba(74, 47, 189, 0.9) 111.58%);
+    background: linear-gradient(90.21deg, rgb(80 54 170 / 80%) -5.91%, rgb(47 104 189 / 90%) 111.58%);
 }
 nav.navbar a.navbar-brand {
     width: 15%;
@@ -166,6 +166,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 @media (max-width: 989px) {
     nav.navbar {
         padding: 0px 0;
-        background: linear-gradient(90.21deg, rgba(170, 54, 124, 0.8) -5.91%, rgba(74, 47, 189, 0.9) 111.58%);
+        background: linear-gradient(90.21deg, rgb(80 54 170 / 80%) -5.91%, rgb(47 104 189 / 90%) 111.58%);
     }
 }

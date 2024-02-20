@@ -15,7 +15,7 @@ body {
   overflow-x: hidden;
   position: relative;
   background-color: #121212 !important;
-  color: #fff !important;
+  color: #ffffff !important;
   font-family: 'Kanit', sans-serif !important;
 }
 
@@ -69,8 +69,8 @@ p.danger {
 span.primary {
   background-color: #2AA5A0;
   background-image: linear-gradient(90.21deg, rgba(170, 54, 124, 0.8) -5.91%, rgba(74, 47, 189, 0.9) 111.58%);
-  -webkit-background-clip: text; /* Применение градиента к тексту для Safari */
-  background-clip: text; /* Применение градиента к тексту для остальных браузеров */
+  -webkit-background-clip: text; 
+  background-clip: text; 
   color: transparent;
   font-weight: 800;
 }
