@@ -28,7 +28,7 @@ export default function Contact() {
     const handleSubmit = async (e) => {
         e.preventDefault();
         setButtonText('Sending...');
-        let response = await fetch('https://my-portfolio-server-7f900.firebaseapp.com/contact', {
+        let response = await fetch('https://us-central1-my-portfolio-server-7f900.cloudfunctions.net/addMessage/contact', {
             method: 'POST',
             headers: {
                 "Content-Type" : "Application/json;charset=utf-8",
