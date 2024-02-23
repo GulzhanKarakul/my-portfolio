@@ -29,7 +29,7 @@ export default function Contact() {
         console.log(formDetails)
         e.preventDefault();
         setButtonText('Sending...');
-        let response = await fetch('https://us-central1-my-portfolio-server-7f900.cloudfunctions.net/addMessage/contact', {
+        let response = await fetch('https://us-central1-my-portfolio-server-7f900.cloudfunctions.net/api/contact', {
             method: 'POST',
             headers: {
                 "Content-Type" : "Application/json;charset=utf-8",
