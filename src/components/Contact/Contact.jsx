@@ -26,6 +26,7 @@ export default function Contact() {
     }
 
     const handleSubmit = async (e) => {
+        console.log(formDetails)
         e.preventDefault();
         setButtonText('Sending...');
         let response = await fetch('https://us-central1-my-portfolio-server-7f900.cloudfunctions.net/addMessage/contact', {
