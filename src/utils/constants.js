@@ -2,6 +2,7 @@ import projImg1 from "../assets/img/port1.jpg";
 import projImg2 from "../assets/img/port2.jpg";
 import projImg3 from "../assets/img/port5.jpg";
 import jsProjectImg1 from '../assets/img/commercial-project1.png'
+import portfolioProjectImg1 from '../assets/img/my-portfolioImg.png'
 
 export const projects = {
     vanillaJS: [
@@ -24,7 +25,7 @@ export const projects = {
         {
             title: "My beautiful Portfolio Site",
             description: "Design & Development",
-            imgUrl: projImg2,
+            imgUrl: portfolioProjectImg1,
             gitUrl: 'https://github.com/GulzhanKarakul/my-portfolio',
             webUrl: 'https://gulzhankarakul.github.io/my-portfolio/',
         },
